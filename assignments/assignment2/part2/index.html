@@ -1,3 +1,12 @@
+<!--
+    Name: Bishwas Adhikari
+    File: index.html
+    Date: Feb 10, 2024
+    Description: This is the index.html file for the second part of
+                the second assignment. This file contains the table template for the planets data.
+                The table contains the data about the planets of our solar system. 
+-->
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -10,14 +19,16 @@
     <h1>Planets Data</h1>
 
     <table>
-      <colsgroup>
+      <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+      <colgroup>
         <col span="2">
         <col style="border: 2px solid black">
-      </colsgroup>
-      <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+        <col span="9">
+      </colgroup>
+      
       <thead>
        <tr>
-          <td colspan="2" scope="colsgroup"></td>
+          <td colspan="2"></td>
           <th scope="col">Name</th>
           <th scope="col">Mass (10<sup>24</sup>kg)</th>
           <th scope="col">Diameter (km)</th>
@@ -105,6 +116,7 @@
           <td>-140</td>
           <td>62</td>
           <td></td>
+        </tr>
         <tr>
           <th rowspan="2" scope="rowgroup">Ice Giants</th>
           <th scope="row"> Uranus</th>
@@ -131,7 +143,7 @@
           <td></td>
         </tr>
         <tr>
-          <th colspan="2" rowspan="2" scope="rowgroup">Dwarf planets</th>
+          <th colspan="2" scope="rowgroup">Dwarf planets</th>
           <th scope="row"> Pluto</th>
           <td>0.0146</td>
           <td>2,370</td>
@@ -142,12 +154,8 @@
           <td>-225</td>
           <td>5</td>
           <td>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
-          
-
         </tr>      
       </tbody>
     </table>
-
-
   </body>
 </html>
