@@ -1,0 +1,38 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+div {
+  /* Set width and height */
+  width: 200px;
+  height: 200px;
+
+  /* Center the box horizontally and vertically */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Increase font size to around 17-18px. 1rem is usually 16px, so 1.1rem is 17.6px */
+  font-size: 1.1rem;
+
+  /* Set background color and text color */
+  background-color: red;
+  color: #ecf0f1;
+
+  /* Set text shadow */
+  text-shadow: 2px 2px #000000;
+
+  /* Set border radius and border */
+  border-radius: 10px;
+  border: 1px solid #2980b9; /* slightly darker shade of the base color */
+
+  /* Set background gradient */
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 30%);
+
+  /* Set box shadows */
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5), /* standard box shadow */
+              inset 1px 1px 2px rgba(255, 255, 255, 0.5), /* white inset shadow */
+              inset -1px -1px 2px rgba(0, 0, 0, 0.5); /* black inset shadow */
+}
