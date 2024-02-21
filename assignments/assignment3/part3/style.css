@@ -43,3 +43,24 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+/* typography stuff */
+
+html {
+  font-family: 'latolight', serif;
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-family: 'josefin_slabbold', sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
